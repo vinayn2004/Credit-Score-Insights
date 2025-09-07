@@ -25,7 +25,7 @@ section = st.sidebar.radio(
 # -------------------- LOAD DATA --------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dataset.csv")
+    df = pd.read_csv("dataset.csv.gz")
     df = df.replace({"Payment_of_Min_Amount": {"NM": "No"}})
     df = df[df["Age"] >= 18].reset_index(drop=True)
     # Ordinal encode Credit_Score
@@ -252,3 +252,4 @@ elif section == "🎁 Bonus: Credit Card Guide":
 # -------------------- FOOTER --------------------
 st.sidebar.markdown("---")
 st.sidebar.caption("© 2025 Credit Score Insights Dashboard – Built with Streamlit")
+
