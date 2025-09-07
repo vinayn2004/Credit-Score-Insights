@@ -1,5 +1,7 @@
 # 📊 Credit Score Analysis & Business Insights Dashboard
 
+[![Watch the demo](https://raw.githubusercontent.com/USER/REPO/main/assets/thumbnail/REPO/main/assets/demo.mp4)
+
 This project is an **Exploratory Data Analysis (EDA) dashboard** built with **Streamlit** to analyze credit score patterns and uncover actionable business insights.  
 It is designed to help financial institutions (inspired by real-world use cases like Paisabazaar) understand **customer behavior, risks, and opportunities**.
 
@@ -27,14 +29,6 @@ It is designed to help financial institutions (inspired by real-world use cases 
 ## 📂 Dataset
 - **100,000+ customer records**  
 - **28 features** including demographics, financial metrics, credit behavior, and payment patterns  
-- Saved as: `dataset.csv`  
+- Saved as: `dataset.csv.gz`  
 
-> ⚠️ Dataset is not uploaded here due to size. You can export your own data (e.g., from Colab as `adults_df`) and save it as `dataset.csv` in the project folder.
 
----
-
-## 🛠️ Installation & Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/credit-score-dashboard.git
-   cd credit-score-dashboard
