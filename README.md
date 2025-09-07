@@ -1,6 +1,6 @@
 # 📊 Credit Score Analysis & Business Insights Dashboard
 
-[![Watch the demo](https://github.com/user-attachments/assets/50e55e13-0d89-4ff3-bdd6-512a67152993)
+[![Watch the demo][(https://github.com/user-attachments/assets/50e55e13-0d89-4ff3-bdd6-512a67152993)]](https://github.com/user-attachments/assets/574f9bcb-8bda-4f47-a8a8-9f0c906cef28)]]
 
 This project is an **Exploratory Data Analysis (EDA) dashboard** built with **Streamlit** to analyze credit score patterns and uncover actionable business insights.  
 It is designed to help financial institutions (inspired by real-world use cases like Paisabazaar) understand **customer behavior, risks, and opportunities**.
@@ -30,6 +30,7 @@ It is designed to help financial institutions (inspired by real-world use cases 
 - **100,000+ customer records**  
 - **28 features** including demographics, financial metrics, credit behavior, and payment patterns  
 - Saved as: `dataset.csv.gz`  
+
 
 
 
