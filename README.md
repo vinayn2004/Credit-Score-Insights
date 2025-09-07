@@ -1,37 +1,80 @@
-# 📊 Credit Score Analysis & Business Insights Dashboard
+📊 Credit Score Analysis & Business Insights Dashboard
 
-[![Watch the demo](https://github.com/user-attachments/assets/574f9bcb-8bda-4f47-a8a8-9f0c906cef28))
+An Exploratory Data Analysis (EDA) dashboard built with Streamlit to analyze credit score patterns and uncover actionable business insights for financial decision-making. It highlights how income, payment behavior, utilization, inquiries, and credit history relate to credit scores across a large customer dataset.
 
-This project is an **Exploratory Data Analysis (EDA) dashboard** built with **Streamlit** to analyze credit score patterns and uncover actionable business insights.  
-It is designed to help financial institutions (inspired by real-world use cases like Paisabazaar) understand **customer behavior, risks, and opportunities**.
+🔗 Live Demo
+App: https://credit-score-insights.streamlit.app/
 
----
+🚀 Features
+Multi-page Streamlit app with sidebar navigation.
 
-## 🚀 Features
-- Interactive **multi-page Streamlit app**
-- 📂 **Data Preview** (scrollable view of dataset + statistics)
-- 📈 **Chart Explorer** with 9+ visualizations:
-  - Credit Score Distribution (Pie Chart)
-  - Income vs Credit Score
-  - Cards vs Credit Score
-  - Delayed Payments vs Credit Score
-  - Seasonal Credit Trends
-  - Payment Behavior by Score
-  - Occupation vs Credit Score
-  - Credit Inquiries by Score (Box Plot)
-  - Credit History Age by Score
-  - Correlation Heatmap
-- 💡 **Business Insights & Conclusion** (key findings, strategies, impact)
-- 🎁 **Bonus Page** (Credit card usage guide with pitfalls & best practices)
+Data Preview with scrollable sample and summary statistics.
 
----
+Chart Explorer with interactive visuals:
 
-## 📂 Dataset
-- **100,000+ customer records**  
-- **28 features** including demographics, financial metrics, credit behavior, and payment patterns  
-- Saved as: `dataset.csv.gz`  
+Credit Score Distribution
+
+Income vs Credit Score
+
+Cards vs Credit Score
+
+Delayed Payments vs Credit Score
+
+Seasonal Credit Trends
+
+Payment Behavior by Score
+
+Occupation vs Credit Score
+
+Credit Inquiries by Score
+
+Credit History Age by Score
+
+Spearman Correlation Heatmap
+
+Business Insights page with key findings, strategies, and expected impact.
+
+Bonus page: Credit card usage guide (pitfalls + best practices).
 
 
+📂 Dataset
+100,000+ customer records, 28 features (demographics, financial metrics, credit behavior, payment patterns).
 
+Stored as dataset.csv.gz in the project root for fast, lossless loading.
 
+📦 Tech Stack
+Streamlit, Python, Pandas, NumPy, Seaborn, Matplotlib, Plotly.
 
+▶️ Quickstart (Local)
+Python 3.12 recommended.
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run:
+
+streamlit run app.py
+
+⚙️ Deployment
+Pushed to GitHub with requirements.txt and runtime.txt (python-3.12).
+
+Deployed on Streamlit Community Cloud by selecting the repo, branch main, and app.py as entrypoint.
+
+🔑 Key Insights (Examples)
+Delayed payments and multiple inquiries correlate negatively with credit score.
+
+Longer credit history and disciplined utilization correlate positively.
+
+Majority of users in the Standard tier → strong upgrade opportunity through education and nudges.
+
+🗂️ Repository Structure
+app.py — Streamlit dashboard entrypoint
+
+PaisaBazaar.ipynb — EDA and supporting analysis
+
+dataset.csv.gz — compressed dataset
+
+requirements.txt — dependencies
+
+README.md — this file
