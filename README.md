@@ -5,7 +5,7 @@ An Exploratory Data Analysis (EDA) dashboard built with Streamlit to analyze cre
 ---
 
 ## 🔗 Live Demo
-- App: <a href="https://credit-score-insights.streamlit.app/" target="_blank" rel="noopener noreferrer">https://credit-score-insights.streamlit.app/</a>
+- App: https://credit-score-insights.streamlit.app/
 
 
 ---
@@ -46,4 +46,5 @@ An Exploratory Data Analysis (EDA) dashboard built with Streamlit to analyze cre
 ## ▶️ Quickstart (Local)
 1. Use Python 3.12 (recommended).
 2. Install dependencies:
+
 
